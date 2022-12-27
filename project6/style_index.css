@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 1920px;
+    height: 1000px;
+    background-image: url("img/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    line-height: 50px;
+    transition: all, .5;
+    color: rgb(145, 136, 166);
+}
+
+.a1:hover {
+    font-size: 20px;
+    color: rgb(158, 189, 146);
+}
+
+.a0 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.first1 {
+    height: 50px;
+    background-color: rgba(71, 80, 68, .5);
+}
+
+select {
+    width: 20px;
+    background-color: rgba(71, 80, 68, .5);
+}
+
+.big {
+    position: relative;
+    width: 1000px;
+    height: 950px;
+    border: 1px solid rgb(145, 136, 166);
+    box-shadow: 5px 5px 5px 5px rgb(195, 193, 200);
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.son1 {
+    width: 400px;
+    line-height: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(195, 193, 200);
+    margin: 100px 0 0 50px;
+    padding: 20px;
+}
+
+.son1>h4 {
+    color: rgb(195, 193, 200);
+}
+
+.son1>p {
+    text-indent: 20px;
+    padding-bottom: 10px;
+}
+
+.son2 {
+    width: 400px;
+    line-height: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(195, 193, 200);
+    margin: 100px 0 0 50px;
+    padding: 20px;
+}
+
+.son2 h3 {
+    text-align: center;
+}
+
+.son2 h3 a {
+    color: black;
+}
+
+.son2 p {
+    text-indent: 20px;
+}
+
+.son3 {
+    position: absolute;
+    width: 300px;
+    top: 100px;
+    right: 40px;
+    line-height: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(195, 193, 200);
+    padding: 20px;
+}
+
+.name {
+    position: relative;
+    width: 1920px;
+    height: 1000px;
+    background-image: url("img/6.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    height: 40px;
+    padding: 20px;
+}
+
+.name img {
+    position: absolute;
+    display: block;
+    padding: 20px;
+}
+
+.name div {
+    float: left;
+    width: 500px;
+    padding: 50px;
+}
